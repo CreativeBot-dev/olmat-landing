@@ -13,8 +13,8 @@ module.exports = {
       },
       colors: {
         tema1: ["#1e40af"],
-        tema2: ["#ffd4db"],
-        tema3: ["#F1C175"],
+        tema2: ["#bfdbfe"],
+        tema3: ["#fef3c7"],
         tema4: ["#f7e1e5"],
         tema5: ["#f2e9ea"],
         tema6: ["#F9E5C5"],

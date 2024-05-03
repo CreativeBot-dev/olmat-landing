@@ -12,7 +12,7 @@ function Rayon() {
     },
     {
       region: "Rayon Banyumas",
-      nameAll: "Ananda Amelia Rif’atus Sholihah",
+      nameAll: "Ananda Amelia Rif'atus Sholihah",
       name: "Ananda",
       telp: "6281252575679",
     },
