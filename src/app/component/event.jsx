@@ -55,7 +55,7 @@ export default function event() {
       harga3: "",
     },
     {
-      acara: "Desain & Puisi",
+      acara: "Story Telling",
       name1: "Wave-1",
       name2: "Wave-2",
       name3: "Wave-3",
