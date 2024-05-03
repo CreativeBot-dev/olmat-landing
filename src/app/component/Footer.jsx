@@ -29,7 +29,7 @@ export default function Footer() {
       href: "https://www.youtube.com/@olimpiadematematikauinsa7027",
     },
   ];
-  let contactPerson = [{ name: "Elena", telp: "6285854949442" }];
+  let contactPerson = [{ name: "Ummi", telp: "6285963106144" }];
 
   return (
     <div>
