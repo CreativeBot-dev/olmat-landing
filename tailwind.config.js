@@ -12,7 +12,7 @@ module.exports = {
         bawah: ["0px 1px 4px"],
       },
       colors: {
-        tema1: ["#95204D"],
+        tema1: ["#1e40af"],
         tema2: ["#ffd4db"],
         tema3: ["#F1C175"],
         tema4: ["#f7e1e5"],

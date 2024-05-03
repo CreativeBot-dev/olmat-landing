@@ -20,14 +20,14 @@ export default function event() {
       buttonName: "Daftar Seminar",
     },
     {
-      name: "Cipta Baca Puisi",
+      name: "Story Telling",
       icon: "/assets/puisi.svg",
       path: "/assets/juknis/JUKLAK JUKNIS LOMBA CIPTA BACA PUISI OLMAT 2023.pdf",
       grid: "md:col-start-2",
       buttonName: "Download JUKNIS",
     },
     {
-      name: "Desain Grafis",
+      name: "Twiboon Challange",
       icon: "/assets/desain.svg",
       path: "/assets/juknis/JUKLAK JUKNIS LOMBA DESAIN GRAFIS OLMAT 2023.pdf",
       grid: "md:col-start-3",
