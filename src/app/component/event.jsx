@@ -8,7 +8,7 @@ export default function event() {
     {
       name: "Olimpiade Matematika",
       icon: "/assets/final-icon.svg",
-      path: "/assets/juknis/JUKLAK JUKNIS OLMAT UINSA 2023.pdf",
+      path: "/assets/juknis/JUKLAK JUKNIS OLMAT UINSA 2024.pdf",
       grid: "md:col-start-2",
       buttonName: "Download JUKNIS",
     },
