@@ -22,7 +22,7 @@ export default function event() {
     {
       name: "Story Telling",
       icon: "/assets/puisi.svg",
-      path: "/assets/juknis/JUKLAK JUKNIS LOMBA CIPTA BACA PUISI OLMAT 2023.pdf",
+      path: "/assets/juknis/JUKLAK JUKNIS STORY TELLING 2024.pdf",
       grid: "md:col-start-2",
       buttonName: "Download JUKNIS",
     },
@@ -47,10 +47,10 @@ export default function event() {
     },
     {
       acara: "Seminar",
-      name1: "Wave-1",
+      name1: "Coming",
       name2: "",
       name3: "",
-      harga1: "Rp. 40.000",
+      harga1: "Soon",
       harga2: "",
       harga3: "",
     },
@@ -58,10 +58,10 @@ export default function event() {
       acara: "Story Telling",
       name1: "Wave-1",
       name2: "Wave-2",
-      name3: "Wave-3",
-      harga1: "Rp. 40.000",
-      harga2: "Rp. 45.000",
-      harga3: "Rp. 50.000",
+      name3: "",
+      harga1: "Rp. 15.000",
+      harga2: "Rp. 20.000",
+      harga3: "",
     },
   ];
 
