@@ -40,7 +40,7 @@ export default function event() {
       acara: "Olmat",
       name1: "SD/MI",
       name2: "SMP/MTs",
-      name3: "SMA/MA",
+      name3: "SMA/SMK/MA",
       harga1: "Rp. 40.000",
       harga2: "Rp. 45.000",
       harga3: "Rp. 50.000",
