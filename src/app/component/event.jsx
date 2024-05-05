@@ -27,7 +27,7 @@ export default function event() {
       buttonName: "Download Juknis",
     },
     {
-      name: "Twiboon Challenge",
+      name: "Twibbon Challenge",
       icon: "/assets/desain.svg",
       path: "/assets/juknis/JUKLAK JUKNIS LOMBA DESAIN GRAFIS OLMAT 2023.pdf",
       grid: "md:col-start-3",
