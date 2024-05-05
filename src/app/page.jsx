@@ -12,7 +12,6 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
-import ComingSoon from "./component/ComingSoon";
 import WaveBackground from "./component/wave";
 
 export default function Home() {
@@ -34,7 +33,7 @@ export default function Home() {
           factorX={0.9}
           factorY={0.1}
           style={{
-            background: "url(/assets/paralax/awanPink.png)",
+            background: "url(/assets/paralax/awanBg.png)",
             backgroundPositionY: "50%",
             position: "absolute",
             filter: "blur(4px) brightness(100%)",
