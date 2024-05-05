@@ -30,7 +30,7 @@ export default function paralax() {
             </h2>
 
             <p className="lg:text-xl mt-[3%]">
-              &quot;Explore Mathematics Skills With ASIC: Action, Spirit, Intelligent, and Competitive&quot;
+              &quot;Explore Mathematics Skills with ASIC: Action, Spirit, Intelligence, and Competitive&quot;
             </p>
             <div className="grid place-items-center my-10 py-2 md:my-7 ">
               <a

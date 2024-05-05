@@ -8,7 +8,7 @@ function Rayon() {
       region: "Rayon Bandung",
       nameAll: "Faizah Qonatus Shofiyah",
       name: "Faizah",
-      telp: "6285895620433",
+      telp: "6285895623689",
     },
     {
       region: "Rayon Banyumas",
@@ -20,7 +20,7 @@ function Rayon() {
       region: "Rayon Cirebon",
       nameAll: "Intan Syaqinah",
       name: "Intan",
-      telp: "625846481964",
+      telp: "628g5846481964",
     },
     {
       region: "Rayon Jabodetabek",
@@ -69,7 +69,7 @@ function Rayon() {
       region: "Rayon Malang",
       nameAll: "Rosidatul ula ",
       name: "Rosidatul",
-      telp: "685607271271",
+      telp: "6285607271271",
     },
 
     {
@@ -82,7 +82,7 @@ function Rayon() {
       region: "Rayon Ponorogo",
       nameAll: "I'anatul Ulya",
       name: "Ulya",
-      telp: "62883831256125",
+      telp: "6283831256125",
     },
     {
       region: "Rayon Semarang",
@@ -109,7 +109,7 @@ function Rayon() {
       telp: "628989735922",
     },
     {
-      region: "Rayon Yoygyakarta",
+      region: "Rayon Yogyakarta",
       nameAll: "Sherly Aprilia",
       name: "Sherly",
       telp: "6285336478144",

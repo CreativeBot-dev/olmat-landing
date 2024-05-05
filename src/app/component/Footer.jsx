@@ -70,7 +70,7 @@ export default function Footer() {
               target="blank"
               className="text-white text-sm ">
               <div className="transition hover:scale-110 duration-500 px-4 py-2 rounded-full">
-                Gedung E1, Fakultas Tarbiyah dan Keguruan,
+                Gedung ELTIS Lt 2, Fakultas Tarbiyah dan Keguruan,
                 <br /> Universitas Islam Negeri Sunan Ampel, Surabaya, Jawa
                 Timur
               </div>
