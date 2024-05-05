@@ -26,12 +26,11 @@ export default function paralax() {
               OLMAT UINSA
             </h1>
             <h2 className="text-4xl md:text-7xl font-bold font-Adlam text-tema1-0">
-              2023
+              2024
             </h2>
 
             <p className="lg:text-xl mt-[3%]">
-              &quot;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Provident&quot;
+              &quot;Explore Mathematics Skills With ASIC: Action, Spirit, Intelligent, and Competitive&quot;
             </p>
             <div className="grid place-items-center my-10 py-2 md:my-7 ">
               <a

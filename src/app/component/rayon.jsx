@@ -6,113 +6,113 @@ function Rayon() {
   let regions = [
     {
       region: "Rayon Bandung",
-      nameAll: "Nita Putri Amelia",
-      name: "Nita",
-      telp: "6285785597036",
+      nameAll: "Faizah Qonatus Shofiyah",
+      name: "Faizah",
+      telp: "6285895620433",
     },
     {
       region: "Rayon Banyumas",
-      nameAll: "Annafi Irsyadia",
-      name: "Annafi",
-      telp: "6285335135500",
+      nameAll: "Ananda Amelia Rif'atus Sholihah",
+      name: "Ananda",
+      telp: "6281252575679",
     },
     {
       region: "Rayon Cirebon",
-      nameAll: "Urwatul Wusqo",
-      name: "urwatul",
-      telp: "6285748017943",
+      nameAll: "Intan Syaqinah",
+      name: "Intan",
+      telp: "625846481964",
     },
     {
       region: "Rayon Jabodetabek",
-      nameAll: "Inayatul Ainiyah",
-      name: "Inayatul",
-      telp: "628563857238",
+      nameAll: "Andini Dwi Savitri",
+      name: "Andini",
+      telp: "6289680892955",
     },
     {
       region: "Rayon Jember",
-      nameAll: "Rizka Purwaningsih",
-      name: "Rizka",
-      telp: "6281515163522",
+      nameAll: "Sandra pratiwi",
+      name: "Sandra",
+      telp: "6285692199880",
     },
     {
       region: "Rayon Kalimantan",
-      nameAll: "Aqilla Diyaul Auliya",
-      name: "Aqilla",
-      telp: "6281339503812",
+      nameAll: "Athallahsaanih Mardihanifah",
+      name: "Athallah",
+      telp: "6287791554494",
     },
     {
       region: "Rayon Kediri",
-      nameAll: "Asyita Farikha Difani",
-      name: "Asyita",
-      telp: "6285748948357",
+      nameAll: "Marta 'Azimatul 'Ulya",
+      name: "Marta",
+      telp: "6281515125303",
     },
     {
       region: "Rayon Lamongan",
-      nameAll: "Chussila Fajri",
-      name: "Chussila",
-      telp: "6285607776929",
+      nameAll: "Diwahyuni",
+      name: "Diwahyuni",
+      telp: "6285708374556",
     },
     {
       region: "Rayon Madiun",
-      nameAll: "Zaimatul Ghefira",
-      name: "Zaimatul",
-      telp: "6281357045529",
+      nameAll: "Novia Arya Ningsih",
+      name: "Novia",
+      telp: "6281455047730",
     },
     {
       region: "Rayon Madura",
-      nameAll: "Ummi Kulsum",
-      name: "Ummi",
-      telp: "6285963106144",
+      nameAll: "Siti Shabrina Al Asra",
+      name: "Siti",
+      telp: "628563238366",
     },
 
     {
       region: "Rayon Malang",
-      nameAll: "Ima Hikmatur",
-      name: "Ima",
-      telp: "628975787733",
+      nameAll: "Rosidatul ula ",
+      name: "Rosidatul",
+      telp: "685607271271",
     },
 
     {
       region: "Rayon Papua-Bali",
-      nameAll: "Shizukana Desurya",
-      name: "Shizukana",
-      telp: "628977473555",
+      nameAll: "Zahrotunnisa",
+      name: "Zahrotunnisa",
+      telp: "6285645821834",
     },
     {
       region: "Rayon Ponorogo",
-      nameAll: "Marlina Lussy Amelia",
-      name: "Marlina",
-      telp: "6281238632175",
+      nameAll: "I'anatul Ulya",
+      name: "Ulya",
+      telp: "62883831256125",
     },
     {
       region: "Rayon Semarang",
-      nameAll: "Dea Miftha Amalia",
-      name: "Dea",
-      telp: "6288221647335",
+      nameAll: "Shakila Syafa Rahmanisa",
+      name: "Shakila",
+      telp: "6287817141028",
     },
     {
       region: "Rayon Sulawesi",
-      nameAll: "Hana Faizatul Mufidah",
-      name: "Hana",
-      telp: "6282232579099",
+      nameAll: "Nailis Sa'adah Moesleh",
+      name: "Nailis",
+      telp: "6288989918173",
     },
     {
       region: "Rayon Sumatera",
-      nameAll: "Naila Rahmatillah",
-      name: "Naila",
-      telp: "6287750273623",
+      nameAll: "Aisyah Rizkyah Savitri",
+      name: "Aisyah",
+      telp: "6281249314146",
     },
     {
       region: "Rayon Surabaya",
-      nameAll: " Anissa Ragilia Putri",
-      name: "Anissa",
-      telp: "6287774091926",
+      nameAll: "Khalista Hafsari Rismaya",
+      name: "Khalista",
+      telp: "628989735922",
     },
     {
       region: "Rayon Yoygyakarta",
-      nameAll: "Laila Saffira Ramadhina",
-      name: "Laila",
-      telp: "6285707276348",
+      nameAll: "Sherly Aprilia",
+      name: "Sherly",
+      telp: "6285336478144",
     },
   ];
   return (
@@ -130,7 +130,7 @@ function Rayon() {
             className="flex items-center justify-between bg-white drop-shadow-md rounded-full px-3 transition hover:scale-105 hover:bg-tema4-0  "
             href={`https://api.whatsapp.com/send/?phone=${rayon.telp}&text=Hai+kak+${rayon.name}%2C+saya+dari+${rayon.region}&type=phone_number&app_absent=0`}
             target="blank">
-            <TfiLocationPin size={"25px"} color="#95204D" />
+            <TfiLocationPin size={"25px"} className="text-tema1-0" />
 
             <div className="mx-4 lg:mx-0">
               <h1 className="font-bold text-center text-tema1-0 ">
@@ -138,7 +138,7 @@ function Rayon() {
               </h1>
               <h2 className="text-sm text-center">{rayon.nameAll}</h2>
             </div>
-            <BsWhatsapp size={"25px"} color="#95204D" />
+            <BsWhatsapp size={"25px"} className="text-tema1-0" />
           </a>
         ))}
       </div>

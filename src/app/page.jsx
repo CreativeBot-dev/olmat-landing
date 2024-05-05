@@ -46,7 +46,7 @@ export default function Home() {
             backfaceVisibility: "hidden",
           }}
         />
-        <div className=" bg-gradient-to-t from-tema2-0 to-white">
+        <div>
           <div className="h-[95vh] mt-[65px]" id="home">
             <Paralax />
           </div>

@@ -7,19 +7,19 @@ export default function Timeline() {
     {
       name: "Penyisihan",
       icon: "/assets/penyi-semi-icon.svg",
-      date: "16 September 2023",
+      date: "21 September 2024",
       col: "md:col-start-1",
     },
     {
       name: "Semifinal",
       icon: "/assets/penyi-semi-icon.svg",
-      date: "23 September 2023",
+      date: "05 Oktober 2024",
       col: "md:col-start-3",
     },
     {
       name: "Final",
       icon: "/assets/final-icon.svg",
-      date: "07 Oktober 2023",
+      date: "19 Oktober 2024",
       col: "md:col-start-5",
     },
   ];

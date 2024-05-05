@@ -101,7 +101,7 @@ const Nav = () => {
         />
 
         <h1 className="absolute bottom-5 pb-3 text-[15px] text-center justify-center w-full">
-          © Copyright by OLMAT 2023
+          © Copyright by OLMAT 2024
           <br />
           <a
             href="https://instagram.com/mch.rama__?utm_source=qr&igshid=MzNlNGNkZWQ4Mg=="
