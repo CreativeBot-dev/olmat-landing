@@ -130,7 +130,7 @@ function Rayon() {
             className="flex items-center justify-between bg-white drop-shadow-md rounded-full px-3 transition hover:scale-105 hover:bg-tema4-0  "
             href={`https://api.whatsapp.com/send/?phone=${rayon.telp}&text=Hai+kak+${rayon.name}%2C+saya+dari+${rayon.region}&type=phone_number&app_absent=0`}
             target="blank">
-            <TfiLocationPin size={"25px"} color="#95204D" />
+            <TfiLocationPin size={"25px"} className="text-tema1-0" />
 
             <div className="mx-4 lg:mx-0">
               <h1 className="font-bold text-center text-tema1-0 ">
@@ -138,7 +138,7 @@ function Rayon() {
               </h1>
               <h2 className="text-sm text-center">{rayon.nameAll}</h2>
             </div>
-            <BsWhatsapp size={"25px"} color="#95204D" />
+            <BsWhatsapp size={"25px"} className="text-tema1-0" />
           </a>
         ))}
       </div>
