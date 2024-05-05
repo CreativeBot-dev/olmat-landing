@@ -5,6 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import WaveBackground from "./wave";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   let contatcIcon = [
@@ -80,14 +81,14 @@ export default function Footer() {
               Contact Person &#8758;
             </h1>
             {contactPerson.map((cp) => (
-              <a
+              <Link
                 className="flex items-center gap-3 text-tema1-0 mt-4 py-1 px-3 rounded-full bg-tema2-0"
                 key={cp.name}
                 href={`https://api.whatsapp.com/send/?phone=${cp.telp}&text=Hai+kak+${cp.name}%2C+saya+mau+bertanya&type=phone_number&app_absent=0`}
                 target="blank">
                 <BsWhatsapp />
                 {cp.name}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

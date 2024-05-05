@@ -63,17 +63,18 @@ export default function Home() {
             <div id="timeline" className="mt-10 ">
               <Timeline />
             </div>
+            <WaveBackground />
           </div>
           <div>
             {/* <div className="h-screen">
             <ComingSoon />
           </div> */}
-            <WaveBackground />
-            <Footer />
           </div>
         </div>
       </MouseParallaxContainer>
-      <div className=""></div>
+      <div className="">
+        <Footer />
+      </div>
     </main>
   );
 }
