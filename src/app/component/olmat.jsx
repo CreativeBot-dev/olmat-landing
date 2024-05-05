@@ -20,7 +20,7 @@ function Olmat() {
             />
             <h1 className="text-white text-sm my-7 px-5 text-center">
               OLMAT UINSA merupakan olimpiade matematika tingkat Nasional pada
-              jenjang SD/MI,SMP/MTs,SMA/MA Berbasis Islam dengan sebaran 18
+              jenjang SD/MI, SMP/MTs, SMA/SMK/MA islam dengan sebaran 18
               Rayon di seluruh Indonesia
             </h1>
           </div>

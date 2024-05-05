@@ -10,7 +10,7 @@ export default function event() {
       icon: "/assets/final-icon.svg",
       path: "/assets/juknis/JUKLAK JUKNIS OLMAT UINSA 2024.pdf",
       grid: "md:col-start-2",
-      buttonName: "Download JUKNIS",
+      buttonName: "Download Juknis",
     },
     {
       name: "Seminar Nasional",
@@ -24,14 +24,14 @@ export default function event() {
       icon: "/assets/puisi.svg",
       path: "/assets/juknis/JUKLAK JUKNIS STORY TELLING 2024.pdf",
       grid: "md:col-start-2",
-      buttonName: "Download JUKNIS",
+      buttonName: "Download Juknis",
     },
     {
-      name: "Twiboon Challange",
+      name: "Twiboon Challenge",
       icon: "/assets/desain.svg",
       path: "/assets/juknis/JUKLAK JUKNIS LOMBA DESAIN GRAFIS OLMAT 2023.pdf",
       grid: "md:col-start-3",
-      buttonName: "Download JUKNIS",
+      buttonName: "Download Juknis",
     },
   ];
 
@@ -40,10 +40,10 @@ export default function event() {
       acara: "Olmat",
       name1: "SD/MI",
       name2: "SMP/MTs",
-      name3: "SMA/MA",
-      harga1: "Rp. 40.000",
-      harga2: "Rp. 45.000",
-      harga3: "Rp. 50.000",
+      name3: "SMA/SMK/MA",
+      harga1: "Rp 40.000",
+      harga2: "Rp 45.000",
+      harga3: "Rp 50.000",
     },
     {
       acara: "Seminar",
@@ -56,11 +56,11 @@ export default function event() {
     },
     {
       acara: "Story Telling",
-      name1: "Wave-1",
-      name2: "Wave-2",
+      name1: "Gelombang-1",
+      name2: "Gelombang-2",
       name3: "",
-      harga1: "Rp. 15.000",
-      harga2: "Rp. 20.000",
+      harga1: "Rp 15.000",
+      harga2: "Rp 20.000",
       harga3: "",
     },
   ];
