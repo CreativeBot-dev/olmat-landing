@@ -15,7 +15,7 @@ module.exports = {
         tema1: ["#1e40af"],
         tema2: ["#bfdbfe"],
         tema3: ["#fef3c7"],
-        tema4: ["#f7e1e5"],
+        tema4: ["#dbeafe"],
         tema5: ["#f2e9ea"],
         tema6: ["#F9E5C5"],
       },
