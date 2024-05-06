@@ -19,7 +19,7 @@ jobs:
           script: |
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh
-            cd /var/www/olmat/olmat-landing
+            cd /var/www/olmat-landing
             git reset --hard
             git pull origin main
             yarn install

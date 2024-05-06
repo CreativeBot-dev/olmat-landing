@@ -4,7 +4,7 @@ module.exports = {
       name: "prod-landing-olmat",
       script: "yarn",
       args: "start",
-      cwd: "/var/www/olmat/olmat-landing",
+      cwd: "/var/www/olmat-landing",
       instances: 1,
       autorestart: true,
       watch: false,
