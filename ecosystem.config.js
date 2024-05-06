@@ -1,10 +1,10 @@
 module.exports = {
   apps: [
     {
-      name: "production-olmat",
+      name: "prod-landing-olmat",
       script: "yarn",
-      args: "start:production",
-      cwd: "/public_html/dev-olmat",
+      args: "start",
+      cwd: "/var/www/olmat-landing",
       instances: 1,
       autorestart: true,
       watch: false,

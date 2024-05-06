@@ -1,4 +1,4 @@
-name: Deployment_Pipeline Olmat
+name: CI/CD Pipeline
 
 on:
   push:
@@ -10,17 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Build Application
-        run: npm run build
-
-      - name: Deploy to Hosting
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy Prod-landing
+        uses: appleboy/ssh-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          host: ${{ secrets.SSH_HOSTNAME }}
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: |
+            export NVM_DIR=~/.nvm
+            source ~/.nvm/nvm.sh
+            cd /var/www/olmat-landing
+            git reset --hard
+            git pull origin main
+            yarn install
+            yarn build
+            pm2 stop ecosystem.config.js
+            pm2 start ecosystem.config.js
