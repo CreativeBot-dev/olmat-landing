@@ -1,4 +1,4 @@
-// File: /home/mchrama/mine/creativebot/olmat/olmat-landing/src/app/page.jsx
+// File: /home/bot/mine/olmat-landing/src/app/page.jsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

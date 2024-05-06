@@ -1,47 +1,16 @@
 {
   "pages": {
-    "/_not-found": [
-      "static/chunks/webpack-3e7d78078bd788da.js",
-      "static/chunks/fd9d1056-defa3bf215879a22.js",
-      "static/chunks/472-ca94283d222f512b.js",
-      "static/chunks/main-app-9086ecf0888a3d3b.js",
-      "static/chunks/app/_not-found-dcac991eecee458d.js"
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-3e7d78078bd788da.js",
-      "static/chunks/fd9d1056-defa3bf215879a22.js",
-      "static/chunks/472-ca94283d222f512b.js",
-      "static/chunks/main-app-9086ecf0888a3d3b.js",
-      "static/css/758542fcbacae5ce.css",
-      "static/chunks/app/layout-89040ce2c87130f9.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-3e7d78078bd788da.js",
-      "static/chunks/fd9d1056-defa3bf215879a22.js",
-      "static/chunks/472-ca94283d222f512b.js",
-      "static/chunks/main-app-9086ecf0888a3d3b.js",
-      "static/chunks/bc9c3264-5a3130333fd8bed4.js",
-      "static/chunks/00cbbcb7-7c2465fb1a5d6a96.js",
-      "static/chunks/4f9d9cd8-66c75633275205a1.js",
-      "static/chunks/9081a741-0d562940981b3042.js",
-      "static/chunks/4cb6dfa8-53f3f0812c101073.js",
-      "static/chunks/43-1997870e31e15532.js",
-      "static/css/a3a832e84e71058f.css",
-      "static/chunks/app/page-cd79305a29d41cc5.js"
-    ],
-    "/pusat-bantuan/page": [
-      "static/chunks/webpack-3e7d78078bd788da.js",
-      "static/chunks/fd9d1056-defa3bf215879a22.js",
-      "static/chunks/472-ca94283d222f512b.js",
-      "static/chunks/main-app-9086ecf0888a3d3b.js",
-      "static/chunks/bc9c3264-5a3130333fd8bed4.js",
-      "static/chunks/00cbbcb7-7c2465fb1a5d6a96.js",
-      "static/chunks/4f9d9cd8-66c75633275205a1.js",
-      "static/chunks/9081a741-0d562940981b3042.js",
-      "static/chunks/dc112a36-3b53e071b07ef314.js",
-      "static/chunks/43-1997870e31e15532.js",
-      "static/css/a3a832e84e71058f.css",
-      "static/chunks/app/pusat-bantuan/page-3579a7080c4efe1c.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ]
   }
 }
