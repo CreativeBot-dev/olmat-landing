@@ -22,14 +22,14 @@ export default function event() {
     {
       name: "Story Telling",
       icon: "/assets/puisi.svg",
-      path: "/assets/juknis/JUKLAK JUKNIS STORY TELLING 2024.pdf",
+      path: "/assets/juknis/JUKLAK JUKNIS STORY TELLING 2024-1.pdf",
       grid: "md:col-start-2",
       buttonName: "Download Juknis",
     },
     {
       name: "Twibbon Challenge",
       icon: "/assets/desain.svg",
-      path: "/assets/juknis/",
+      path: "/assets/juknis/JUKLAK JUKNIS TWIBOON CHALLENGE 2024.pdf",
       grid: "md:col-start-3",
       buttonName: "Download Juknis",
     },
